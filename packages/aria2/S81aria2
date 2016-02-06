@@ -1,6 +1,6 @@
 #!/bin/sh
 
-[ -e /opt/var/aria2/session.dat ] || touch /opt/var/aria2/session.dat
+[ -e /Apps/opt/var/aria2/session.dat ] || touch /Apps/opt/var/aria2/session.dat
 
 ENABLED=yes
 PROCS=aria2c
